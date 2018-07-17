@@ -13,7 +13,7 @@
 
 .cartao--some {
 	opacity: 0;
-	transition: 10s;
+	transition: 1s;
 }
 
 .cartao.cartao--focado,
@@ -85,4 +85,22 @@
         flex-basis: 6em;
     }
 
+}
+
+
+.opcoesDoCartao {
+	opacity: 0;
+	transform: scale(5) translate(-1em, -50%) !important; 
+	pointer-events: none;
+	transition: .5s;
+}
+
+/* .cartao:focus-within .opcoesDoCartao, */
+.cartao--focado .opcoesDoCartao,
+.cartao:focus .opcoesDoCartao,
+.cartao:hover .opcoesDoCartao {
+	opacity: 1;
+	transform: scale(1) translate(-1em, -50%) !important; 
+	pointer-events: all;
+	/* background: red; */
 }

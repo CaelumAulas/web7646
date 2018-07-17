@@ -56,3 +56,20 @@ https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR
 - Não olha da apostila 
 
 **10 minutos**
+
+
+## 14 - 
+
+- Dicas:
+    - https://willianjusten.com.br/alguns-seletores-css-importantes-para-aprender/
+    - https://daneden.github.io/animate.css/
+    - https://mariosouto.com/animusjs/
+    - Dicas de acessibilidade: Talita Pagani (Palestras em geral)
+    - Reinaldo Ferraz da w3c: https://www.youtube.com/watch?v=5FJJuEVt5sA
+    - http://hugeinc.github.io/styleguide/pt/modules.html
+    - https://material.angular.io/components/checkbox/overview
+    - https://material-ui.com/demos/avatars/
+## 16 - Ajustar a navegação via teclado
+
+- Sempre que houver Enter ou Espaço
+- Vamos ativar o change
