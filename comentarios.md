@@ -69,7 +69,11 @@ https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR
     - http://hugeinc.github.io/styleguide/pt/modules.html
     - https://material.angular.io/components/checkbox/overview
     - https://material-ui.com/demos/avatars/
+    - https://kraken.io
+    - https://github.com/frontendbr/vagas/issues
 ## 16 - Ajustar a navegação via teclado
 
 - Sempre que houver Enter ou Espaço
 - Vamos ativar o change
+
+## Dicas

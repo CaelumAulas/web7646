@@ -32,9 +32,18 @@
 
             document.querySelector('.formNovoCartao-salvar')
                     .insertAdjacentElement('beforebegin',msgErro)
+                    // Porta de entrada entre o JS e o HTML da página
 
+            msgErro.addEventListener('animationend', function() {
+                msgErro.remove()
+            })
+        } else {
+            const conteudoDoCartao = conteudo
+            adicionaCartaoNoMural({ conteudo: conteudoDoCartao })
 
-        }
+        } // fechamento do else
+        document.querySelector('.formNovoCartao-conteudo').value = ''
+        $('.formNovoCartao-conteudo').val('') 
 
        // 
        // temos que ter o HTML
@@ -44,3 +53,16 @@
 
     form.classList.remove('no-js')
 })()
+
+            // - Analisar como os cartões são feitos
+            // - Copiar Tag a Tag 
+            // - pegar a variavel conteudo e jogar no HTML
+
+            // Criando o article (De forma Imperativa)
+            // <article id="cartao_${numeroDoCartao}" class="cartao" tabindex="0">
+            // const article = document.createElement('article')
+            // article.classList.add('cartao')
+            // article.setAttribute('tabindex', '0') // tabindex="0"
+            // article.setAttribute('id', 'cartao_${numeroDoCartao}')
+
+            // article.textContent = valorDoTextArea
