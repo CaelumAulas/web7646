@@ -40,7 +40,7 @@
         } else {
             const conteudoDoCartao = conteudo
             adicionaCartaoNoMural({ conteudo: conteudoDoCartao })
-
+// qsuhdsauh
         } // fechamento do else
         document.querySelector('.formNovoCartao-conteudo').value = ''
         $('.formNovoCartao-conteudo').val('') 
