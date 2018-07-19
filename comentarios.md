@@ -75,6 +75,13 @@ https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR
     - https://httpstatusdogs.com/405-method-not-allowed
     - Ferramenta para trabalhar com os designers: https://zeplin.io/
     - Ferramenta para gerar sites: https://webflow.com/ (lembra de alterar as tag do html pra ficar mais semantico)
+    - Lib de requests: https://github.com/axios/axios, https://github.com/fdaciuk/ajax, 
+    https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API
+    - https://polyfill.io/v2/docs/features/
+    - APrendendo a aprender: https://pt.coursera.org/learn/aprender
+    - Desafios pra vida: https://javascript30.com/
+    - https://www.youtube.com/channel/UCVheRLgrk7bOAByaQ0IVolg
+    - Coisas a fundo de JS: https://www.youtube.com/watch?v=093dIOCNeIc&list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc
 
 ## 16 - Ajustar a navegação via teclado
 

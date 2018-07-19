@@ -19,6 +19,25 @@
 // 25 minutos
 
 
+$.ajax({
+    method: 'GET',
+    dataType: 'jsonp',
+    url: 'http://ceep.herokuapp.com/cartoes/carregar?usuario=omariosouto',
+    success: function(resposta) {
+        resposta.cartoes.forEach(function(ajudaAtual, indice) {
+            adicionaCartaoNoMural(ajudaAtual)
+        })
+    }
+})
+
+/* <script>
+function umaFuncaoProntaPraSerExecutada(respostaDoServer) {
+  console.log(respostaDoServer)
+}
+</script>
+<script src="http://ceep.herokuapp.com/cartoes/carregar?usuario=omariosouto&callback=umaFuncaoProntaPraSerExecutada"></script> */
+
+
 // CÓDIGO VAI AQUI
 
 // Privado
