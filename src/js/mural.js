@@ -8,6 +8,19 @@
 //     nome: 'Fulano'
 // }
 
+// CÓDIGO VAI AQUI
+
+// Desafio: Pegar infos do servidor e criar cartões
+// http://ceep.herokuapp.com/cartoes/carregar?usuario=omariosouto
+// Vai dar um erro
+    // Stackoverflow
+    // Forum da Alura
+    // Onde vcs quiserem
+// 25 minutos
+
+
+// CÓDIGO VAI AQUI
+
 // Privado
 let numeroDoCartao = document.querySelectorAll('.cartao').length
 

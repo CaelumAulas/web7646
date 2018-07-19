@@ -1,8 +1,3 @@
-
-
-
-
-
 // IIFE
 ;(function() {
     const form = document.querySelector('.formNovoCartao')

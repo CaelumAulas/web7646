@@ -71,6 +71,11 @@ https://developers.google.com/speed/pagespeed/insights/?hl=pt-BR
     - https://material-ui.com/demos/avatars/
     - https://kraken.io
     - https://github.com/frontendbr/vagas/issues
+    - https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q
+    - https://httpstatusdogs.com/405-method-not-allowed
+    - Ferramenta para trabalhar com os designers: https://zeplin.io/
+    - Ferramenta para gerar sites: https://webflow.com/ (lembra de alterar as tag do html pra ficar mais semantico)
+
 ## 16 - Ajustar a navegação via teclado
 
 - Sempre que houver Enter ou Espaço
