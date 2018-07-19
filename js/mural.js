@@ -1,6 +1,18 @@
+// IIFE (Encapsulamento, Deixando o código privado)
+;(function() {
+"use strict"
+// Evitar variaveis globais
+// Evitar objetos com chaves duplicada
+// const teste = {
+//     nome: 'Mario',
+//     nome: 'Fulano'
+// }
+
+// Privado
 let numeroDoCartao = document.querySelectorAll('.cartao').length
 
-function adicionaCartaoNoMural(cartaoObj) {
+// Publico
+window.adicionaCartaoNoMural = function adicionaCartaoNoMural(cartaoObj) {
     numeroDoCartao++
     // Criar os cartões
     // Pegando o Valor do Textarea
@@ -96,3 +108,5 @@ function adicionaCartaoNoMural(cartaoObj) {
 
     $('.mural').prepend(cartao) 
 }
+
+})()
